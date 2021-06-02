@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amritanshu Prajapati || Porfolio</title>
+    <link
+      rel="shortcut icon"
+      href="./img/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./typer.js"></script>
+    <!--Fontawesome Icon Pack-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="side-brand">
+        <div class="logo">
+          <button onClick="navToggle()" id="logo-btn">
+            <i class="fab fa-artstation"></i>
+          </button>
+        </div>
+        <div class="brand-name">
+          <p>Amritanshu Prajapati</p>
+        </div>
+      </div>
+      <div class="navigation" id="navid">
+        <nav>
+          <ul>
+            <a href="#home">
+              <li><i class="fas fa-home"></i> Home</li>
+            </a>
+            <a href="#about">
+              <li><i class="fas fa-info-circle"></i> About</li>
+            </a>
+            <a href="#skill">
+              <li><i class="fas fa-graduation-cap"></i> Skill</li>
+            </a>
+            <a href="#work">
+              <li><i class="fas fa-briefcase"></i> Work</li>
+            </a>
+            <a href="#contact">
+              <li><i class="fas fa-envelope"></i> Contact</li>
+            </a>
+          </ul>
+        </nav>
+        <div class="theme">
+          <button onclick="darkmodeToggle()">
+            <i class="fas fa-moon"></i> | <i class="fas fa-sun"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content_nav">
+          <a href="#contact" id="hire" class="hire_btn">Hire Me</a>
+          <div class="content_nav_social">
+            <a href="https://www.facebook.com/people/Amritanshu-Prajapati/100006466968116" target="_blank"
+              ><i class="fab fa-facebook-square"></i
+            ></a>
+            <a href="https://www.instagram.com/amritanshu_prajapati/?hl=en" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://in.linkedin.com/" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="theme content_nav_theme">
+            <button onclick="darkmodeToggle()">
+              <i class="fas fa-moon"></i> | <i class="fas fa-sun"></i>
+            </button>
+          </div>
+        </div>
+        <section class="home_section" id="home">
+          <div class="home_text">
+            <h1>Welcome</h1>
+            <h6>
+              I'm a <span id="change_title" style="color: #37ccc3"></span>
+            </h6>
+            <p>Think || Build || Enjoy</p>
+          </div>
+          <div class="home_img">
+            <img src="./img/home.jpg" alt="" />
+          </div>
+        </section>
+        <div class="content_img1">
+          <i class="fab fa-artstation"></i>
+          <h1>Amritanshu Prajapati</h1>
+        </div>
+
+        <section class="about_section" id="about">
+          <div class="about_img">
+            <img src="./svg/about.svg" alt="about_us_image" />
+          </div>
+          <div class="about_text">
+            <h1>About Me</h1>
+            <p>
+              Hello, I'm Amritanshu Prajapati, an enthusiast Web and App
+              developer. I have Experience with HTML, CSS, JavaScript, React
+              ,React Native and currently exploring backend development.
+            </p>
+          </div>
+        </section>
+
+        <section class="skill_section" id="skill">
+          <h2>Skills</h2>
+          <div class="skill_box">
+            <div class="course">
+              <h4>C/C++</h4>
+              <div class="percentage_box">
+                <div class="percentage perccpp">75%</div>
+              </div>
+            </div>
+            <div class="course">
+              <h4>HTML</h4>
+              <div class="percentage_box">
+                <div class="percentage perhtml">90%</div>
+              </div>
+            </div>
+            <div class="course">
+              <h4>CSS</h4>
+              <div class="percentage_box">
+                <div class="percentage percss">80%</div>
+              </div>
+            </div>
+            <div class="course">
+              <h4>JavaScript</h4>
+              <div class="percentage_box">
+                <div class="percentage perjavascript">85%</div>
+              </div>
+            </div>
+            <div class="course">
+              <h4>React</h4>
+              <div class="percentage_box">
+                <div class="percentage perreact">50%</div>
+              </div>
+            </div>
+            <div class="course">
+              <h4>Php</h4>
+              <div class="percentage_box">
+                <div class="percentage perphp">48%</div>
+              </div>
+            </div>
+            <div class="course">
+              <h4>MySQL</h4>
+              <div class="percentage_box">
+                <div class="percentage permysql">64%</div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+        <div class="content_img2">
+          <!-- <img src="./img/skill.png" alt="skill_work_image"> -->
+        </div>
+        <section class="work_section" id="work">
+          <h2>My Works</h2>
+          <div class="work_list">
+            <div class="box box1 active">
+              <img src="./img/projexts/amritaakash.PNG" />
+              <a
+                href="https://amrit-web.github.io/weatherV2/dist/"
+                target="_blank"
+                >AmritAakash</a
+              >
+            </div>
+            <div class="box box2">
+              <img src="./img/projexts/lnmi.PNG" />
+              <a href="https://lnmiresult.herokuapp.com/" target="_blank"
+                >LNMI Result System</a
+              >
+            </div>
+            <div class="box box3">
+              <img src="./img/projexts/namastey.PNG" />
+              <a href="https://web.whatsapp.com/" target="_blank">Namastey</a>
+            </div>
+            <div class="box box4">
+              <img src="./img/projexts/vaccslot.PNG" />
+              <a
+                href="https://amrit-web.github.io/vaccine/dist/"
+                target="_blank"
+                >Vacc-Slot</a
+              >
+            </div>
+          </div>
+          <div class="switcher_box">
+            <a onclick="prev(1);">◀</a>
+            <a onclick="next(1);">▶</a>
+          </div>
+        </section>
+        <section class="contact_section" id="contact">
+          <div class="contact_form">
+            <h2>Let's get in touch</h2>
+            <form
+              action="mailto:amritraj421999@gmail.com"
+              method="POST"
+              enctype="multipart/form-data"
+              name="EmailForm"
+            >
+              <div class="f-group-common form-group1">
+                <input
+                  type="text"
+                  name="Contact-FirstName"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  name="Contact-LastName"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="f-group-common form-group2">
+                <input
+                  type="email"
+                  name="Contact-Email"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+              <div class="f-group-common form-group3">
+                <textarea
+                  name="Contact-Message"
+                  rows="10"
+                  placeholder="Drop Your Message"
+                ></textarea>
+              </div>
+              <div class="f-group-common form-group4">
+                <button type="submit" value="Submit">
+                  <i class="fas fa-paper-plane"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="contact_image">
+            <img src="./svg/message.svg" alt="" />
+          </div>
+        </section>
+        <div class="footer">
+          <p>© Copyright Reserved || Designed With ♥ in India</p>
+        </div>
+      </div>
+    </div>
+    <!--Script-->
+    <script>
+      function darkmodeToggle() {
+        var element = document.querySelector(".side-brand");
+        var body = document.body;
+        element.classList.toggle("dark-mode");
+        body.classList.toggle("dark-mode");
+      }
+
+      function navToggle() {
+        var x = document.querySelector(".navigation");
+        if (x.style.display === "none") {
+          x.style.display = "flex";
+          x.style.transition = "display 1s";
+        } else {
+          x.style.display = "none";
+        }
+      }
+
+      $("#change_title").typer({
+        strings: ["Web Developer", "Web Designer", "Freelancer"],
+      });
+    </script>
+    <script src="./workslider.js"></script>
+    <script src="./rightclickdisble.js"></script>
+  </body>
+</html>
